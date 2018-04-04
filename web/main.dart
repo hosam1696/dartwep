@@ -26,6 +26,8 @@ void main() {
   Timer timeout = new Timer(TIME_OUT, handleInputLogic);
 
   //timeout.cancel();
+
+  querySelector('.log').text = hosam.logName;
 }
 
 String reverseWord(String word) {

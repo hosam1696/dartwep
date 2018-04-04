@@ -6,9 +6,23 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #eee
 }
 
 #output {
   padding: 20px;
   text-align: center;
+}
+
+input {
+  margin: 5px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.log {
+  font-weight: bold;
+  color: royalblue;
+  margin: 5px
 }
